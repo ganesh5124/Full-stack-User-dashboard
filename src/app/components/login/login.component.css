@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+}
+
+.container-fluid {
+    padding: 0;
+    width: 100%;
+}
+
+.image-section {
+    padding: 0;
+}
+
+.image-bg {
+    background-image: url('../../../assets/Images/user-mngmnt.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.form-section {
+    background-color: #fff;
+    padding: 30px;
+    background-image: url('../../../assets/Images/user-mngmnt.jpg');
+
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.btn-block{
+    margin-top: 15px;
+}
+
+small{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5px;
+  }

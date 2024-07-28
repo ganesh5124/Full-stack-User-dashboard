@@ -1,0 +1,25 @@
+  <!-- For View Side Overlay -->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">View User Details</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="grid text-center">
+        <div class="g-col-6">First Name</div>
+        <div class="g-col-6">{{viewUserDetails?.firstname}}</div>
+      
+        <div class="g-col-6">Last Name</div>
+        <div class="g-col-6">{{viewUserDetails?.lastname}}</div>
+
+        <div class="g-col-6">User Name</div>
+        <div class="g-col-6">{{viewUserDetails?.username}}</div>
+        
+        <div class="g-col-6">Email</div>
+        <div class="g-col-6">{{viewUserDetails?.email}}</div>
+
+        <div class="g-col-6">Gender</div>
+        <div class="g-col-6">{{viewUserDetails?.gender === "1" ? 'Male' : viewUserDetails?.gender === "2" ? 'Female' : 'Prefer Not to Say'}}</div>
+      </div>
+    </div>
+  </div>
