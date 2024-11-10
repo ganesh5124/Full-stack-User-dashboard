@@ -10,6 +10,6 @@
   
 ## Languages and technologies used
 
-* In this projected i have used AngularJS for frontend Ui, NodeJs for Backend and database for MYSQL
+* In this projected i have used AngularJS for frontend Ui, NodeJs for Backend and MYSQL for database
 
 * To install or check the frontend please refer to frontend folder and backend for backend folder

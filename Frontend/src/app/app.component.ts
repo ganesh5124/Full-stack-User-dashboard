@@ -11,4 +11,5 @@ import { UserComponent } from './components/user/user.component';
 })
 export class AppComponent {
   title = 'user_management_dash';
+  
 }
